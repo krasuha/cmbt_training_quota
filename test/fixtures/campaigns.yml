@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  camp_name: MyString
+  acc_id: 1
+  start_dt: 2015-09-09
+  end_dt: 2015-09-09
+
+two:
+  camp_name: MyString
+  acc_id: 1
+  start_dt: 2015-09-09
+  end_dt: 2015-09-09
