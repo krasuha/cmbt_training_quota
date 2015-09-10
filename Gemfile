@@ -8,7 +8,8 @@ gem 'rails', '4.2.1'
 group :development, :test do
 #  gem 'sqlite3', '1.3.8'
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
+#  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -20,7 +21,8 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+#  gem 'capybara', '2.1.0'
+  gem 'capybara'
 end
 
 group :development do
